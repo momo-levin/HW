@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back_img{
+    background-image: url(./img/img_baner.jpeg);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1_title{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.section1_block1_text{
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.back_img_title{
+    color: white;
+}
+.back_img_text{
+    color: white;
+    margin: 30px; 
+}
+.button_back_img{
+    padding: 10px 20px;
+    background-color: rgb(53, 53, 53);
+    border: 1px solid rgb(131, 131, 131);
+    color: white;
+}
+
+.section1_block1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.section2{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+}
+.section2_block{
+    background-color: white;
+    width: 200px;
+    margin: 20px 10px;
+}
+.section2_block_img{
+    width: 100%;
+    height: 120px;
+}
+.section2_block_title{
+    margin: 30px 0;
+    font-weight: bold;
+    text-align: center;
+}
+.section2_block_text {
+    margin: 20px;
+    text-align: center;
+}
+
+.section3{
+    background-color: white;
+}
+.section3_title{
+    margin: 20px 0;
+}
+.section3_text,.section3_title {
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 700px;    */
+}
+.section1_footer{
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.section1_footer_block1{
+    width: 50%;
+    background-color: rgb(73, 173, 255);
+}
+.section1_footer_block1_title{
+margin: 30px 0;
+}
+.section1_footer_block1_text{
+    margin: 0 20px 30px 20px;
+}
+.section1_footer_block2{
+    width: 50%;
+    background-color: rgb(53, 53, 53);
+}
+.section1_footer_block2_title{
+    margin: 30px 0;
+}
+.section1_footer_block2_text{
+        margin: 0 20px;
+}
+.section1_footer_block1_email{
+    margin-bottom: 30px;
+}
+.section2_footer{
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 200px;
+}
+.section2_footer_block1{
+    width: 50%;
+    text-align: center;
+}
+.section2_footer_block2{
+    width: 50%;
+    text-align: center;
+}
+.section2_footer_block1_text, .section2_footer_block2_text{
+    margin-top: 25px;
+}

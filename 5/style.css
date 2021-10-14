@@ -1,0 +1,44 @@
+/* ------ Задание 2 --------- */
+
+.kubik1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    
+}
+
+.kubik2{
+    background-color: rgb(30, 255, 0); 
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+    left: 30px;
+    top: 30px;
+}
+
+.kubik3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    left: 60px;
+    top: 60px;
+}
+.container{
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+/* ------ Задание 3 --------- */
+.header {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: tomato;
+}
