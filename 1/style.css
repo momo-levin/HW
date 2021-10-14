@@ -1,0 +1,22 @@
+.text {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    background-color: slateblue;
+    width: 100px;
+    height: 100px;oi
+}
+
+.block{
+    background-color: springgreen;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
+
+p.text2 {
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2em;
+}
